@@ -1,6 +1,11 @@
+import Card from "./Card";
+
 function Contact(){
     return(
-        <h1>This is contact page</h1>
+        <>
+           <Card title= "Work Hard" body= "Please Be Consistent" />
+           <Card title= "Work Hard" body= "Please Be Consistent" />
+        </>
     )
 }
 

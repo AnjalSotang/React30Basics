@@ -8,9 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path="/" element={<h1><Home /></h1>} />
-      <Route path="/about" element={<h1><About /></h1>}/>
-      <Route path="/contact" element={<h1><Contact /></h1>}/>
+        {/* giving the routing path and importing the components from jsx file  */}
+      <Route path="/" element={<Home />} /> 
+      <Route path="/about" element={<About />}/>
+      <Route path="/contact" element={<Contact />}/>
       </Routes>
       </BrowserRouter >
   )
